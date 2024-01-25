@@ -27,7 +27,7 @@ In the longer term we'd like to move to a more open way of developing, but for n
 Pubhubs consists of the following components:
 
 - **Pubhubs Central**: The PubHubs platform itself, for central login and authentication. Hubs will only get pseudonyms of the user but never the central identity.
-- **Global Client**: The client which is used to navigate between Hubs. It uses an ifram to embed different Hubs (hosted on different servers).
+- **Global Client**: The client which is used to navigate between Hubs. It uses an iframe to embed different Hubs (hosted on different servers).
 - **Hubs**: Modified [matrix](https://matrix.org/) homeservers, in the PubHubs platform these will not be federated so ids are not shared between hubs (in the longer term we'd like to link hubs to be able to share content so maybe some federation will happen).
 - **Hub clients**: A client which communicates to a Hub, embedded in the Global Client. This client is at its core a matrix client with specifics for PubHubs.
 
